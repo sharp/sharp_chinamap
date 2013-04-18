@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<area id="beijing" title="北京" value="北京,人口：100万,面积：380万平方公里,主要交通工具：自行车" url="test.html" target="_blank"/>
+	<area id="tianjin" title="天津" value="天津"  url="test1.html" target="_blank"/>
+	<area id="xinjiang" title="新疆" value="&lt;font color=&quot;#990000&quot; size=&quot;18&quot;&gt;这是HTML字体&lt;/font&gt;"/>
+	<area id="xizang" title="西藏" value="西藏"  url="test3.html" target="_blank"/>
+	<area id="qinghai" title="青海" value="青海"  url="test.html" target="_blank"/>
+	<area id="gansu" title="甘肃" value="甘肃"  url="test.html" target="_blank"/>
+	<area id="neimenggu" title="内蒙古" value="内蒙古"  url="test.html" target="_blank"/>
+	<area id="ningxia" title="宁夏" value="宁夏"  url="test.html" target="_blank"/>
+	<area id="shanxi" title="山西" value="山西"  url="test.html" target="_blank"/>
+	<area id="liaoning" title="辽宁" value="辽宁"  url="test.html" target="_blank"/>
+	<area id="jilin" title="吉林" value="吉林"  url="test.html" target="_blank"/>
+	<area id="heilongjiang" title="黑龙江" value="黑龙江"  url="test.html" target="_blank"/>
+	<!--
+	<area id="hebei" title="河北" value="河北"  url="test.html" target="_blank"/>
+	<area id="shandong" title="山东" value="山东"  url="test.html" target="_blank"/>
+	-->
+	<area id="henan" title="河南" value="河南"  url="test.html" target="_blank"/>
+	<area id="shannxi" title="陕西" value="陕西"  url="test.html" target="_blank"/>
+	<area id="sichuan" title="四川" value="四川"  url="test.html" target="_blank"/>
+	<area id="chongqing" title="重庆" value="重庆"  url="test.html" target="_blank"/>
+	<area id="hubei" title="湖北" value="湖北"  url="test.html" target="_blank"/>
+	<area id="anhui" title="安徽" value="安徽"  url="test.html" target="_blank"/>
+	<area id="jiangsu" title="江苏" value="江苏"  url="test.html" target="_blank"/>
+	<area id="shanghai" title="上海" value="上海"  url="test.html" target="_blank"/>
+	<area id="zhejiang" title="浙江" value="浙江"  url="test.html" target="_blank"/>
+	<area id="fujian" title="福建" value="福建"  url="test.html" target="_blank"/>
+	<area id="taiwan" title="台湾" value="台湾"  url="test.html" target="_blank"/>
+	<area id="jiangxi" title="江西" value="江西"  url="test.html" target="_blank"/>
+	<area id="hunan" title="湖南" value="湖南"  url="test.html" target="_blank"/>
+	<area id="guizhou" title="贵州" value="贵州"  url="test.html" target="_blank"/>
+	<area id="guangxi" title="广西" value="广西"  url="test.html" target="_blank"/>
+	<area id="guangdong" title="广东" value="广东"  url="test.html" target="_blank"/>
+	<area id="xianggang" title="香港" value="香港"  url="test.html" target="_blank"/>
+	<area id="hainan" title="海南" value="海南"  url="test.html" target="_blank"/>
+	<area id="yunnan" title="云南" value="云南"  url="test.html" target="_blank"/>
+</data>
