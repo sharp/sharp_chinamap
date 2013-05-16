@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
-	<area id="beijing" title="北京" value="北京,人口：100万,面积：380万平方公里,主要交通工具：自行车" url="test.html" target="_blank"/>
+	<area id="beijing" title="北京" value="学校: 1000所 \n 老师 1000个 \n 学生： 1000名" url="test.html" target="_blank"/>
 	<area id="tianjin" title="天津" value="天津"  url="test1.html" target="_blank"/>
 	<area id="xinjiang" title="新疆" value="&lt;font color=&quot;#990000&quot; size=&quot;18&quot;&gt;这是HTML字体&lt;/font&gt;"/>
 	<area id="xizang" title="西藏" value="西藏"  url="test3.html" target="_blank"/>

@@ -12,7 +12,7 @@ package {
 	import flash.net.navigateToURL;
 	import flash.external.ExternalInterface;
 	
-	[SWF(width="600",height="500",frameRate="25",backgroundColor="#FFFFFF")]
+	[SWF(width="595",height="500",frameRate="25",backgroundColor="#FFFFFF")]
 	
 	public class ChinaMap extends Sprite {
 		
@@ -32,7 +32,7 @@ package {
 			var mapLoading:MapLoading = new MapLoading();
 			addChild(mapLoading);
 			var xmlLoader:URLLoader = new URLLoader();
-			var xmlAdress:String = (loaderInfo.parameters.xmlurl != null)?loaderInfo.parameters.xmlurl:"data/d.xml";
+			var xmlAdress:String = (loaderInfo.parameters.xmlurl != null)?loaderInfo.parameters.xmlurl:"http://haobanji.com/provinces.xml";
 			xmlLoader.addEventListener(Event.COMPLETE,function(e:Event):void{
 				mapXML = new XML(e.target.data).area;
 				removeChild(mapLoading);
@@ -43,7 +43,10 @@ package {
 		
 		private function drawUI():void {
 			mapBackGroud = new MapBackgound();
-			mapBackGroud.title = (mapConfig.title == null)?"所有学校列表":mapConfig.title;
+			var title:String = stage.loaderInfo.parameters["title"];
+			if(title!=null){
+				mapBackGroud.title = title;
+			}//(mapConfig.title == null)?"好班级-学校地图":mapConfig.title;
 			addChild(mapBackGroud);
 			mapArea = new MapArea();
 			mapArea.x  = mapArea.y = 20;

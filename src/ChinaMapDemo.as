@@ -20,7 +20,7 @@ package
 		}
 		
 		private function init(e:Event):void {
-			e.currentTarget.content.loaderInfo.parameters.title = "中国地图";
+			e.currentTarget.content.loaderInfo.parameters.title = "学校地图";
 			var demoMap:ChinaMap = e.currentTarget.content as ChinaMap;
 			demoMap.addEventListener(MapEvent.ITEMCLICK,clickHandler);
 		}
